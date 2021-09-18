@@ -1,4 +1,4 @@
-# Aula 01 - Lambda
+# Aula 02.1 - Lambda
 
 
 1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/02\ -\ Lambda/01\ -\ intro/` para entrar na pasta que fara este exercicio.

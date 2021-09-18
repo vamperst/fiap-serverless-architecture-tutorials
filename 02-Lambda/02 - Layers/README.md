@@ -1,4 +1,4 @@
-# Aula 01.2 - Lambda Layers
+# Aula 02.2 - Lambda Layers
 
 
 1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/02\ -\ Lambda/02\ -\ Layers/` para entrar na pasta que fara este exercicio.
@@ -6,7 +6,7 @@
 2. Iniciar o repositório de trabalho `sls create --template "aws-python3"`.
   
     ![img/slscreate.png](img/slscreate.png)
-3. Crie um arquivo chamado requirements.txt com o conteúdo 'boto3'.
+3. Crie um arquivo chamado requirements.txt com o conteúdo 'boto3' Crie o arquivo com o comando `c9 open requirements.txt`.
        ![img/createreqs.png](img/createreqs.png)
       ![img/boto3.png](img/boto3.png)
 
