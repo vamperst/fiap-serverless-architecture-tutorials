@@ -1,7 +1,7 @@
 # Aula 01.2 - Lambda Layers
 
 
-1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/hybridnativecloud-exercises-serverless/01\ -\ Lambda/02\ -\ Layers/` para entrar na pasta que fara este exercicio.
+1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/02\ -\ Lambda/02\ -\ Layers/` para entrar na pasta que fara este exercicio.
    
 2. Iniciar o repositório de trabalho `sls create --template "aws-python3"`.
   
@@ -10,7 +10,7 @@
        ![img/createreqs.png](img/createreqs.png)
       ![img/boto3.png](img/boto3.png)
 
-4. Execute o comando no terminal `python3 -m venv ~/venv` para criar um ambiente virtual python e pode baixar as dependencias sem conflitar com nenhuma dependecia já baixada.
+4. Execute o comando no terminal `pip3 install virtualenv && python3 -m venv ~/venv` para criar um ambiente virtual python e pode baixar as dependencias sem conflitar com nenhuma dependecia já baixada.
 5. Execute o comando no terminal `source ~/venv/bin/activate` para ativar o ambiente virtual criado no passo anterior
 6. Crie uma pasta chamada `layer` utilizando o comando no terminal `mkdir layer`.
 7. Execute o comando `pip3 install -r requirements.txt -t layer` para instalar todas as dependencias listadas no arquivo requirements.txt dentro da pasta layer.

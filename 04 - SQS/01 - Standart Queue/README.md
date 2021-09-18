@@ -5,7 +5,7 @@
 ![img/sqs01.png](img/sqs01.png)
 2. Copie a URL da sua fila. É a segunda informação da sua aba 'Detalhes' quando a fila esta selecionada.
 ### Enviando dados para a fila
-1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/hybridnativecloud-exercises-serverless/04\ -\ SQS/01\ -\ Standart\ Queue/` para entrar na pasta que fara este exercicio.
+1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/04\ -\ SQS/01\ -\ Standart\ Queue/` para entrar na pasta que fara este exercicio.
 2. Altere o arquivo put.py adicionando a URL da fila do sqs que criou nos passos anteriores
 ![img/sendtoqueue01.png](img/sendtoqueue01.png)
 3. Execute o comando `python3 put.py` no terminal para colocar 3000 mensagens na fila.

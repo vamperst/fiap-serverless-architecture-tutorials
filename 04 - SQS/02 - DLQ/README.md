@@ -1,6 +1,6 @@
 # Aula 04.2 - DLQ Queue
 
-1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/hybridnativecloud-exercises-serverless/04\ -\ SQS/02\ -\ DLQ/` para entrar na pasta que fara este exercicio.
+1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/04\ -\ SQS/02\ -\ DLQ/` para entrar na pasta que fara este exercicio.
 2. Na aba do SQS crie uma fila com o mesmo nome de uma fila já criada e coloque o sulfixo '_DLQ'
 3. Selecione a fila Demoqueue clique em 'Ações  fila' e depois em 'Configurar fila'
 ![img/dlq-01.png](img/dlq-01.png)

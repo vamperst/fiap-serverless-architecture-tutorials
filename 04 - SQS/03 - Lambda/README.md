@@ -1,6 +1,6 @@
 # Aula 04.3 - Lambda
 
-1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/hybridnativecloud-exercises-serverless/04\ -\ SQS/03\ -\ Lambda` para entrar na pasta que fara este exercicio.
+1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/04\ -\ SQS/03\ -\ Lambda` para entrar na pasta que fara este exercicio.
 2. Execute o comando `sls create --template "aws-python3"` no terminal para criar os arquivos do serverless framework.
 3. Altere o handler.py para ficar como na imagem. Não esqueça de colocar a URL da sua fila de destino.
    ![at](img/lambda-01.png)
