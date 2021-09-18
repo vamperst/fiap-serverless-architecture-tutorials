@@ -1,4 +1,4 @@
-cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo-Base
+cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo
 
 sudo apt-get install python3-pip
 sudo pip3 install virtualenv 

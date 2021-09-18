@@ -6,7 +6,7 @@
 2. Preencha os dados como na imagem e clique em create
 ![img/partitionkey02.png](img/partitionkey02.png)
 3. A tabela pode levar alguns minutos para ser criada. Aguarde.
-4. De volta ao cloud9 acesse a pasta com os scripts a serem utilizados: `cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo-Base`
+4. De volta ao cloud9 acesse a pasta com os scripts a serem utilizados: `cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo`
 5. Abra o arquivo dynamo-PK-1.py utilizando o comando `c9 open dynamo-PK-1.py`
 ![img/pk1.png](img/pk1.png)
 5. Utilizando esse script você vai inserir 3 Items com o mesma PK na tabela. Execute o comando `python3 dynamo-PK-1.py`

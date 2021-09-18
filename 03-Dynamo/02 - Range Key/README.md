@@ -3,7 +3,7 @@
 1. Clique em 'Create Table'
 2. Preencha os dados como na imagem e clique em 'Create'
 ![img/rangekey01.png](img/rangekey01.png)
-3. De volta ao cloud9 acesse a pasta com os scripts a serem utilizados: `cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo-Base`
+3. De volta ao cloud9 acesse a pasta com os scripts a serem utilizados: `cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo`
 4. Abra o arquivo dynamo-SK-1.py no IDE com o comando `c9 open dynamo-SK-1.py`
 ![img/rangekey02.png](img/rangekey02.png)
 4. Esse script irá popular de maneira randomica combinações dos objetos das listas users e books. Execute o comando `python3 dynamo-SK-1.py`

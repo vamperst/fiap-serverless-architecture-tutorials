@@ -5,7 +5,7 @@
 ![img/globalsecondarykey-1.png](img/globalsecondarykey-1.png)
 3. Preencha como a imagem, e clique em 'Create Index'. Esse processo pode demorar.
 ![img/globalsecondarykey-2.png](img/globalsecondarykey-2.png)
-4. De volta ao cloud9 acesse a pasta com os scripts a serem utilizados: `cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo-Base`
+4. De volta ao cloud9 acesse a pasta com os scripts a serem utilizados: `cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo`
 5. Abra o arquivo dynamo-GSI-1.py no IDE com o comando `c9 open dynamo-GSI-1.py`
 ![img/gsi1.png](img/gsi1.png)
 6. Esse script irá popular de maneira randomica combinações dos objetos das listas users,stores e books. Execute o arquivo com o comando `python3 dynamo-GSI-1.py`

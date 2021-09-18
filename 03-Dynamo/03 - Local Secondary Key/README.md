@@ -6,7 +6,7 @@
 ![img/localsecondaryindex02.png](img/localsecondaryindex02.png)
 3. Desmarque as opções de Auto Scalling e deixe o 'Provisioned capacity' como na imagem, e clique em 'Create'
 ![alt](img/localsecondaryindex03.png)
-4. De volta ao cloud9 acesse a pasta com os scripts a serem utilizados: `cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo-Base`
+4. De volta ao cloud9 acesse a pasta com os scripts a serem utilizados: `cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo`
 5. Abra o arquivo dynamo-SK-1.py no IDE com o comando `c9 open dynamo-LCI-1.py`
 ![img/localsecondaryindex04.png](img/localsecondaryindex04.png) 
 6. Esse script irá popular de maneira randomica combinações dos objetos das listas users, stores e books.Execute o arquivo com `python3 dynamo-LCI-1.py`
