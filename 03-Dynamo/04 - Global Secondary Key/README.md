@@ -1,9 +1,11 @@
 # 03.4 - Global Secondary Key
 
 1. Crie uma table chamada 'sell_gsi' utilizando 'user' como PK e 'datetime' como SK.
-2. Nessa tabela vá até a aba 'Indexes', e clique em 'Create Index'.
+   ![](img/gsi3.png)
+2. Coloque a capacidade como `sob demanda`   
+2. Nessa tabela adicione um indice global secundaria.
 ![img/globalsecondarykey-1.png](img/globalsecondarykey-1.png)
-3. Preencha como a imagem, e clique em 'Create Index'. Esse processo pode demorar.
+3. Preencha como a imagem, e clique em 'Criar Índice'. Esse processo pode demorar.
 ![img/globalsecondarykey-2.png](img/globalsecondarykey-2.png)
 4. De volta ao cloud9 acesse a pasta com os scripts a serem utilizados: `cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo`
 5. Abra o arquivo dynamo-GSI-1.py no IDE com o comando `c9 open dynamo-GSI-1.py`
