@@ -9,9 +9,16 @@
 4. De volta ao cloud9 acesse a pasta com os scripts a serem utilizados: `cd ~/environment/fiap-serverless-architecture-tutorials/03-Dynamo`
 5. Abra o arquivo dynamo-PK-1.py utilizando o comando `c9 open dynamo-PK-1.py`
 ![img/pk1.png](img/pk1.png)
-5. Utilizando esse script você vai inserir 3 Items com o mesma PK na tabela. Execute o comando `python3 dynamo-PK-1.py`
-6. De volta ao painel do dynamoDB clique na tabela `book` e clique em `Visualizar Items` no canto superior direito.
-7. Verá que temos apenas um registro. Isso ocorreu porque quando inserirmos partition keys identicas o banco sobrescreve o registro anterior.
+5. Execute os comandos abaixo para garantir que esta em um ambiente virtual do python com as dependencias necessárias para executar o execício:
+   ``` shell
+   pip3 install virtualenv && python3 -m venv ~/venv
+   source ~/venv/bin/activate
+   pip3 install boto3
+   npm install -g serverless
+   ```
+6. Utilizando esse script você vai inserir 3 Items com o mesma PK na tabela. Execute o comando `python3 dynamo-PK-1.py`
+7. De volta ao painel do dynamoDB clique na tabela `book` e clique em `Visualizar Items` no canto superior direito.
+8. Verá que temos apenas um registro. Isso ocorreu porque quando inserirmos partition keys identicas o banco sobrescreve o registro anterior.
 ![img/partitionkey04.png](img/partitionkey04.png)
 7. Abra o arquivo dynamo-PK-2.py utilizando o comando `c9 open dynamo-PK-2.py`
 ![img/pk2.png](img/pk2.png)
