@@ -38,5 +38,3 @@
 ![img/lambda-03.png](img/lambda-03.png)
 12.  Se esperar alguns execuções vai ver que a fila principal vai zerar.
 13.  Execute o comando `sls remove` no terminal para remover o que foi criado.
-14.  Vá até o painel do sqs, selecione as 2 filas que utilizou no exercicio, clique em 'Ações de fila' e depois em 'Eliminar Filas'. Confirme. Essa ação vai tirar todos os items das 2 filas.
-![img/lambda-05.png](img/lambda-05.png)
