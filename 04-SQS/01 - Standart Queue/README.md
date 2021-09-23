@@ -27,7 +27,7 @@
 3. Abra o arquivo serverless.yml com o comando `c9 open serverless.yml`
 4. Altere o arquivo 'serverless.yml' e coloque o seguinte conteudo, não esqueça de preencher as duas URLs das filas como descrito:
 ![img/lambda-01.png](img/lambda-01.png)
-5. Altere o arquivo 'handler.py' com o seguinte conteudo. O abra com o seguinte comando `c9 open handler.py`
+5. Crie o arquivo 'handler.py' com o seguinte conteudo. O abra com o seguinte comando `c9 open handler.py`
 ![img/lambda-02.png](img/lambda-02.png)
 7. rode o comando `sls deploy`
 8. Coloque alguns itens na fila com o comando `python3 put.py`, lembrando que cada execução do lambda criado pode consumir até 1000 posições da fila sqs.
