@@ -1,6 +1,6 @@
 # Aula 05.3 - Lambda
 
-1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/03\ -\ SNS/` para entrar na pasta que fara este exercicio.
+1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/05-SNS/` para entrar na pasta que fara este exercicio.
 2. Utilize virtualenv para esse exercicio com os comandos:
    ``` shell
       python3 -m venv ~/venv 
@@ -11,14 +11,14 @@
 5. Vamos criar o SNS que será utilizado no exercicio, para isso abra uma aba do console e vá para o serviço SNS. No menu lateral do serviço clique em Tópicos.
    ![](img/sns1.png)
 6. No canto superior direito clique em Criar tópico
-7. Preencha o nome do tópico e clique em Criar Tópico 
+7. Preencha o nome do tópico e clique em Criar Tópico. O nome do tópico será `sendtoslack` do tipo padrão.
    ![](img/sns2.png)
 8. O ARN que será utlizado no código esta na pagina do Tópico que criou
    ![](img/sns3.png)
-9.  Crie um arquivo 'serverless.yml' com o seguinte conteudo
+9.  De volta ao Cloud9, crie um arquivo 'serverless.yml' com o seguinte conteudo da imagem abaixo. Para criar de maneira fácil execute o comando `c9 open serverless.yml`. Não esqueça de salvar após o termino.
 ![img/lambda-01.png](img/lambda-01.png)
-10. Crie um arquivo 'lambda.py' com o seguinte conteudo
-![img/lambda-02.png](img/lambda-02.png)    
+10. Agora Crie um arquivo 'lambda.py' com o seguinte conteudo da imagem abaixo para servir de código para interpretar as mensagens do SNS e enviar para o slack. Para criar de maneira fácil execute o comando `c9 open lambda.py`. Não esqueça de salvar após o termino.
+![img/lambda-02.png](img/lambda-02.png)
 11.  No conteudo de Webclient Token copie e cole o token do dontpad
 12. No channel coloque o seguinte `#atividade-slack`
 13. Execute o comando `sls deploy`
@@ -27,4 +27,3 @@
 16. Preencha o corpo da mensagem com o conteudo desejado e clique em `Publicar mensagem`
     ![](img/sns4.png)
 17. Sua mensagem aparecerá no Slack
-
