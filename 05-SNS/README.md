@@ -21,7 +21,7 @@
 ![img/lambda-02.png](img/lambda-02.png)
 11.  No conteudo de Webclient Token copie e cole o token do dontpad
 12. No channel coloque o seguinte `#atividade-slack`
-13. Execute o comando `sls deploy`
+13. Execute o comando `sls deploy -v`
 14. Agora cada vez que você publicar uma mensagem para o SNS irá receber uma mensagem no slack
 15. Para enviar uma mensagem vá até o console SNS do seu tópico e cliquem em `Publicar mensagem` no canto superior direito da tela.
 16. Preencha o corpo da mensagem com o conteudo desejado e clique em `Publicar mensagem`
