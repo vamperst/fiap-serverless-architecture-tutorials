@@ -43,7 +43,7 @@
     ![alt](img/eb8.png)
 22. Devolta ao cloud9 agora você vai criar outras 2 regras que ativaram cada uma um lambda. Isso será executado com serverless framework apontando para o barramento que criou. Para entrar na pasta correta e abrir o arquivo no IDE execute o comando:
 ``` shell
-cd ~/environment/fiap-serverless-architecture-tutorials/06-EventBridge/
+cd ~/environment/fiap-serverless-architecture-tutorials/06-EventBridge/lambda
 c9 open serverless.yml
 ```
 23. <strong>Adicione</strong> as 2 funções lambda conforme na imagem abaixo o serverless.yml aberto no passo anterior. A função `source` captura todos os eventos que tem o source = `com.aws.orders`, já a segunda função, `detail`, captura todos os eventos do mesmo source e adiciona os filtros por tipo de detalhe e localização.
