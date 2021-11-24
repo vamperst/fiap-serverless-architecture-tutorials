@@ -4,7 +4,7 @@
 1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/02-Lambda/01\ -\ intro/` para entrar na pasta que fara este exercicio.
  2. Iniciar o repositório de trabalho `sls create --template "aws-python3"`
  ![img/slscreate.png](img/slscreate.png)
- 3. Execute o comando `npm install -g serverless-pseudo-parameters` para instalar o plugin necessário para essa stack.
+ 3. Execute o comando `npm install serverless-pseudo-parameters` para instalar o plugin necessário para essa stack.
  4. Explore os arquivos criados(serverless.yml e handler.py) pelo comando anterior utilizando o menu de navegação lateral:
     ![img/explore.png](img/explore.png)
  5. Abra o arquivo serverless.yml no IDE com o comando `c9 open serverless.yml`
