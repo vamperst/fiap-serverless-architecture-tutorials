@@ -1,7 +1,7 @@
 # Aula 02.1 - Lambda
 
 
-1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/02\ -\ Lambda/01\ -\ intro/` para entrar na pasta que fara este exercicio.
+1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/02-Lambda/01\ -\ intro/` para entrar na pasta que fara este exercicio.
  2. Iniciar o repositório de trabalho `sls create --template "aws-python3"`
  ![img/slscreate.png](img/slscreate.png)
  3. Execute o comando `npm install -g serverless-pseudo-parameters` para instalar o plugin necessário para essa stack.
