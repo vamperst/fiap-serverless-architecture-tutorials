@@ -1,7 +1,7 @@
 # Aula 02.2 - Lambda Layers
 
 
-1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/02\ -\ Lambda/02\ -\ Layers/` para entrar na pasta que fara este exercicio.
+1. No terminal do IDE criado no cloud9 execute o comando `cd ~/environment/fiap-serverless-architecture-tutorials/02-Lambda/02\ -\ Layers/` para entrar na pasta que fara este exercicio.
    
 2. Iniciar o repositório de trabalho `sls create --template "aws-python3"`.
   
