@@ -36,7 +36,7 @@
 17. Altere o arquivo para que fique como na imagem abaixo, não esqueça de salvar:
    ![alt](img/code1.png)
 18. No terminal execute o comando `python3 putEvents.py` para enviar 10 eventos para o barramento.
-19. Para conferir a regra funcionando vá para o painel do cloudwatch utilizando o link: [Cloudwatch Logs](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logsV2:log-groups/log-group/$252Faws$252Fevent$252Forders)
+19. Para conferir a regra funcionando vá para o painel do cloudwatch utilizando o link: [Cloudwatch Logs](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logsV2:log-groups/log-group/$252Faws$252Fevents$252Forders)
 20. Caso tudo tenha corrido corretamente terão alguns streamings como na imagem abaixo:
     ![alt](img/eb7.png)
 21. Clique em um dos streamings para ver o evento enviado.
