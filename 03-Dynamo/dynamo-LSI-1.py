@@ -4,7 +4,7 @@ from baseDAO import BaseDAO
 import random
 from datetime import datetime
 
-dao = BaseDAO('sell_lci')
+dao = BaseDAO('sell_lsi')
 
 users = ['rafael','pedro','teresa','natalia', 'eduardo']
 books = ['book1','book2','book3','book4','book5','book6']
