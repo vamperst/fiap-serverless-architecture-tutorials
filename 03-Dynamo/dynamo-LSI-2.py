@@ -5,7 +5,7 @@ import random
 from datetime import datetime
 import json
 
-dao = BaseDAO('sell_lci')
+dao = BaseDAO('sell_lsi')
 
 items = dao.scan_table_eq('user','rafael')
 print(len(items['Items']))
